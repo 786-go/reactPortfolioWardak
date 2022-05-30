@@ -4,7 +4,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs d-flex justify-content-evenly">
       <li className="nav-item">
         <a
           href="#home"
@@ -29,8 +29,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#work"
+          onClick={() => handlePageChange('Work')}
           //  TODO: Add a comment explaining what this logic is doing
 
           className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
