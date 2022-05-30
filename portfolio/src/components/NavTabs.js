@@ -3,7 +3,8 @@ import React from 'react';
 // TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
 function NavTabs({ currentPage, handlePageChange }) {
-  return (
+  return (<>
+  <h1 className="myname">Noorullah</h1>
     <ul className="nav nav-tabs d-flex justify-content-evenly">
       <li className="nav-item">
         <a
@@ -33,9 +34,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Work')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Work
         </a>
       </li>
       <li className="nav-item">
@@ -50,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-  );
+  </>);
 }
 
 export default NavTabs;

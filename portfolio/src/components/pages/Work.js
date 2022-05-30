@@ -36,7 +36,7 @@ export default function Work() {
     {
       app:"Employe Tracker",
       description:"MySQL assignment",
-      screenshot:"/images/employeetracker",
+      screenshot:"/images/quiz.PNG",
       live:"",
       github:""
     }
@@ -44,19 +44,22 @@ export default function Work() {
   return (
     <div>
   <h3 className="pageheading">Work</h3>
+  <section className='d-flex flex-wrap justify-content-evenly'>
+    
   {projects.map((element,key) =>
-      <Card key={key} style={{ width: '18rem' }}>
+      <Card key={key} className="mt-5 p-3" style={{ width: '18rem' }}>
   <Card.Img variant="top" src={process.env.PUBLIC_URL + element.screenshot} />
   <Card.Body>
     <Card.Title>{element.app}</Card.Title>
     <Card.Text>
       {element.description}
     </Card.Text>
-    <Button variant="primary"><a href={element.live}>live</a></Button>
-    <Button variant="primary"><a href={element.github}>live</a></Button>
+    <a href={element.live}><Button className='m-1 p-1' variant="info">live</Button></a>
+    <a href={element.github}><Button className='m-1 p-1' variant="success">Github</Button></a>
   </Card.Body>
 </Card>
     )}
+    </section>
     </div>
   );
 }
