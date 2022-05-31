@@ -6,7 +6,7 @@ export default function About() {
 
       <h3 className="pageheading">About</h3>
       <section className='container'>
-        <h6 className="text-capitalize fs-1 lh-lg">I am a Math Professor, currently persuing Fullstack web development programm with an aim to be a passionate Web developer</h6>
+        <h6 className="text-capitalize fs-1 lh-lg">I am a Math Professor, currently pursuing Fullstack web development program with an aim to be a passionate Web developer</h6>
 
 
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
