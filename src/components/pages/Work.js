@@ -6,39 +6,39 @@ import {Card,Button} from "react-bootstrap";
 export default function Work() {
   const projects = [
     {
-      app:"Code Refactor",
-      description:"HTML 5 semantic tags and CSS rfactor",
-      screenshot:"/images/quiz.PNG",
-      live:"",
-      github:""
-    },
-    {
-      app:"Code Quiz",
-      description:"DOM Manipulation",
+      app:"Multiple Choice JS Quiz",
+      description:"Test your JavaScript knowledge with these 5 questions",
       screenshot:"/images/quiz.PNG",
       live:"https://786-go.github.io/codingQuiz/",
       github:"https://github.com/786-go/codingQuiz"
     },
     {
-      app:"Code Refactor",
-      description:"HTML 5 semantic tags and CSS rfactor",
-      screenshot:"/images/quiz.PNG",
-      live:"",
+      app:"Taskinator",
+      description:"Schedule your daily tasks",
+      screenshot:"/images/tasks.PNG",
+      live:"https://786-go.github.io/Taskinator/",
+      github:"https://github.com/786-go/Taskinator"
+    },
+    {
+      app:"Events Scheduler",
+      description:"Schedule your daily events",
+      screenshot:"/images/scheduler.PNG",
+      live:"https://786-go.github.io/eventsScheduler/",
+      github:"https://github.com/786-go/eventsScheduler"
+    },
+    {
+      app:"Budget Tracker",
+      description:"Keep Track of What You Have",
+      screenshot:"/images/tracker.PNG",
+      live:"https://guarded-ridge-65447.herokuapp.com/",
       github:""
     },
     {
-      app:"Code Refactor",
-      description:"HTML 5 semantic tags and CSS rfactor",
-      screenshot:"/images/quiz.PNG",
-      live:"",
-      github:""
-    },
-    {
-      app:"Employe Tracker",
-      description:"MySQL assignment",
-      screenshot:"/images/quiz.PNG",
-      live:"",
-      github:""
+      app:"The Weather API",
+      description:"Easily Check Forecasts For Any City",
+      screenshot:"/images/weather.PNG",
+      live:"https://786-go.github.io/weatherAPI/",
+      github:"https://github.com/786-go/weatherAPI"
     }
   ]
   return (

@@ -6,7 +6,8 @@ export default function About() {
 
       <h3 className="pageheading">About</h3>
       <section className='container'>
-        <h6 className="text-capitalize fs-1 lh-lg">I am a Math Professor, currently pursuing Fullstack web development program with an aim to be a passionate Web developer</h6>
+        <h6 className="text-capitalize fs-4 lh-lg">I am a Math Professor, currently pursuing a Fullstack web development <br></br>
+        program with an aim to be a passionate Web developer</h6>
 
 
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
@@ -17,13 +18,13 @@ export default function About() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-            <a href="https://github.com/786-go" target="_blank" rel="noreferer noopener" ><img src={process.env.PUBLIC_URL +'/images/do-you-know-me.jpg'} className="d-block w-100" alt="image of boardgame" /></a>
+            <a href="https://github.com/786-go" target="_blank" rel="noreferrer noopener" ><img src={process.env.PUBLIC_URL +'/images/logoghub.jfif'} className="d-block w-100" alt="boardgame" /></a>
             </div>
             <div className="carousel-item">
-            <a href="https://www.linkedin.com/in/noorullah-wardak-b35b1a23a?trk=people-guest_people_search-card" target="_blank" rel="noreferer noopener" ><img src={process.env.PUBLIC_URL +'/images/do-you-know-me.jpg'} className="d-block w-100" alt="image of boardgame" /></a>
+            <a href="https://www.linkedin.com/in/noorullah-wardak-b35b1a23a?trk=people-guest_people_search-card" target="_blank" rel="noreferrer noopener" ><img src={process.env.PUBLIC_URL +'/images/logolin.jpg'} className="d-block w-100" alt="boardgame" /></a>
             </div>
             <div className="carousel-item">
-            <a href="https://github.com/786-go/codingQuiz" target="_blank" rel="noreferer noopener" ><img src={process.env.PUBLIC_URL +'/images/do-you-know-me.jpg'} className="d-block w-100" alt="image of boardgame" /></a>
+            <a href="https://github.com/786-go/codingQuiz" target="_blank" rel="noreferrer noopener" ><img src={process.env.PUBLIC_URL +'/images/quiz.png'} className="d-block w-100" alt="boardgame" /></a>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
